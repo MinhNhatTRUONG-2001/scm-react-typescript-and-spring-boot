@@ -1,0 +1,1 @@
+# Please read the README.md in both ScmServer and scm-client carefully first

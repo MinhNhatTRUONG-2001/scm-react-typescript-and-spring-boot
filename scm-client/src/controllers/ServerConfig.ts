@@ -1,0 +1,1 @@
+export const serverName="http://80.69.175.2:2718/";
