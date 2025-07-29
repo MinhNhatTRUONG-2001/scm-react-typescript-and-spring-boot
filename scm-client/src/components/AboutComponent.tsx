@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { getKeyValues } from "../controllers/AboutController";
 
-//test: localStorage.setItem("about", '[{"author":"Nhat Truong","year":2022}]');
+localStorage.setItem("about", '[{"author":"Nhat Truong","year":2022}]');
 
 const AboutComponent:FC = () => {
     const aboutArray = JSON.parse(getKeyValues() || '[]');
@@ -16,7 +16,6 @@ const AboutComponent:FC = () => {
     return (
         <div>
             <div>Author: {aboutArray[0].author}, year: {aboutArray[0].year}</div>
-            <div>{getKeyValues()}</div>
             <br/>
             <div>
                 <table>

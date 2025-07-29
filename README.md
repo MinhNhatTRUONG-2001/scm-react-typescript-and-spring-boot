@@ -1,1 +1,2 @@
-# Please read the README.md in both ScmServer and scm-client carefully first
+# Please read the README.md in both ScmServer and scm-client folder carefully for learning the application setup
+The original code and delopyment setup are on Azure DevOps of my university account, but I can no longer access to it. Therefore, the only the code is stored here.
